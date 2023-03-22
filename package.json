@@ -1,0 +1,14 @@
+{
+  "name": "frontendproject",
+  "version": "1.0.0",
+  "description": "project for frontend course",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Severi Salonen",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
