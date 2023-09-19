@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "project for frontend course",
   "main": "index.js",
+  "homepage": "https://sevu88.github.io/parruHT_website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Severi Salonen",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0"
   }
 }
