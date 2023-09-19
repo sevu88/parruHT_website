@@ -236,9 +236,9 @@ main {
     height: 40vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
-      width: 150px;
-      height: 150px; } }
+      background: url("../img/portrait.jpg");
+      width: 215px;
+      height: 250px; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
